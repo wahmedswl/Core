@@ -1,1 +1,1 @@
-{"Bot":{"Current":0,"Interval":15,"FromName":"Activity Bot","ToName":"Waqas Ahmed","ToEmail":"wahmed@sequelmed.com","Accounts":[{"Email":"monitoring@sequelmed.com","Type":"Gmail"}],"CC":["iinayat@sequelmed.com"]},"HealthCheck":{"Interval":1,"Machine":{"Id":"*","Database":[],"Server":[]}}}
+{"Bot":{"Current":0,"Interval":15,"FromName":"Activity Bot","ToName":"Waqas Ahmed","ToEmail":"wahmed@sequelmed.com","Accounts":[{"Email":"monitoring@sequelmed.com","Type":"Gmail"}],"CC":["iinayat@sequelmed.com"]},"HealthCheck":{"Interval":1,"Machine":[{"Id":"*","Database":[],"Server":[]}]}}
