@@ -5,7 +5,7 @@
   },
   "Bot": {
     "Current": 0,
-    "Interval": 180,
+    "Interval": 60,
     "FromName": "Activity Bot",
     "ToName": "Waqas Ahmed",
     "ToEmail": "wahmed@sequelmed.com",
