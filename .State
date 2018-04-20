@@ -60,5 +60,31 @@
   },
   "SystemCheck": {
     "Interval": 120
+  },
+  "Slack": {
+    "All": [
+      {
+        "Name": [
+          "SureScripts"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydLQ0DzFydtZ3zgwPq8go9HDPMMkI8S1LDQpwsTAOCIsEAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "PracticeEHR"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydHIxNjc2cNVPLwn0TnUz8kz1d8kISzeODHMtKK/MTvcFAA=="
+          }
+        ]
+      }
+    ]
   }
 }
