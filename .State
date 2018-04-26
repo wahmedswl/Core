@@ -19,6 +19,12 @@
         "Type": "Gmail",
         "Password": "SzEuS83JL0gtUgEA",
         "Hashed": true
+      },
+      {
+        "Email": "android@sequelmed.com",
+        "Type": "Gmail",
+        "Password": "SzEuS83JL0gtUgEA",
+        "Hashed": true
       }
     ],
     "CC": [
