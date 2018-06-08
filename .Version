@@ -2,7 +2,7 @@
   {
     "Product": "PracticeEHR",
     "LongTerm": "10.0.2889-mu3-develop-prod-5June18+62276ed88",
-    "Stable": "10.0.2889-mu3-develop-prod-5June18+62276ed88",
-    "Latest": "10.0.2889-mu3-develop-prod-5June18+62276ed88"
+    "Stable": "10.0.2881-mu3-develop~1+f4139d1c4",
+    "Latest": "10.0.2880-mu3-develop+dd2065f1a"
   }
 ]
