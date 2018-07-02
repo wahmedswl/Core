@@ -9,6 +9,6 @@
     "Product": "SureScripts",
     "LongTerm": "10.6.156-develop+b51e6c5",
     "Stable": "10.6.164-develop+347feda",
-    "Latest": "10.6.165-develop+cf007e7"
+    "Latest": "10.6.*-develop+*"
   }
 ]
