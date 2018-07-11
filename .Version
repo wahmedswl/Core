@@ -1,12 +1,12 @@
 [
   {
-    "Product": "PracticeEHR",
+    "Product": "PracticeEHR-*",
     "LongTerm": "10.0.2889-mu3-develop-prod-5June18+62276ed88",
     "Stable": "10.0.2881-mu3-develop~1+f4139d1c4",
     "Latest": "10.0.2880-mu3-develop+dd2065f1a"
   },
   {
-    "Product": "SureScripts",
+    "Product": "SureScripts-*",
     "LongTerm": "10.6.156-develop+b51e6c5",
     "Stable": "10.6.164-develop+347feda",
     "Latest": "10.6.*-develop+*"
