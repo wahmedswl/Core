@@ -121,7 +121,8 @@
           "EmailReminderService",
           "VisitSignOffService",
           "InboundFaxService",
-          "CallReminderService"
+          "CallReminderService",
+          "LabInterface"
         ],
         "Type": [
           {
