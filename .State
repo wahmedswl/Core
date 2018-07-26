@@ -80,7 +80,9 @@
       {
         "Name": [
           "SureScripts",
-          "RxHub"
+          "RxHub",
+          "EdiSimplified",
+          "LabInterface"
         ],
         "Type": [
           {
@@ -152,9 +154,12 @@
     "All": [
       {
         "Name": [
-          "SureScripts"
+          "SureScripts",
+          "RxHub",
+          "EdiSimplified",
+          "LabInterface"
         ],
-        "Token": "MzE3MkpLSjWyNEg0Tk1MNjQ3N04yMEkySTO1TDExTTIGAA=="
+        "Token": "M060NDA1MjYxNzNMMbYwNTcxMTM3MjAxTUkyMTZONDMEAA=="
       },
       {
         "Name": [
