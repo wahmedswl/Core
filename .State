@@ -3,6 +3,9 @@
     "Include": [],
     "Exclude": []
   },
+  "Database": {
+    "Limit": 500
+  },
   "Bot": {
     "Current": 0,
     "Interval": 120,
