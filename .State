@@ -4,7 +4,7 @@
     "Exclude": []
   },
   "Database": {
-    "Limit": 1000
+    "Limit": 5000
   },
   "Bot": {
     "Current": 0,
