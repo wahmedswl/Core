@@ -39,7 +39,7 @@
   },
   "HealthCheck": {
     "Interval": 120,
-    "CheckInterval": 2,
+    "CheckInterval": 5,
     "Machine": [
       {
         "Id": "*",
