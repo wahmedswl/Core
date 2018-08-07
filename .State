@@ -4,7 +4,14 @@
     "Exclude": []
   },
   "Database": {
-    "Limit": 5000
+    "Limit": 5000,
+    "Server": [
+      {
+        "Id": "*",
+        "Name": "PEHRAUTH",
+        "PoolMax": 50
+      }
+    ]
   },
   "Bot": {
     "Current": 0,
