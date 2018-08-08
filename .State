@@ -4,7 +4,7 @@
     "Exclude": []
   },
   "Database": {
-    "Limit": 500,
+    "Limit": 150,
     "Server": [
       {
         "Id": "*",
