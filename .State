@@ -155,7 +155,9 @@
           "VisitSignOffService",
           "InboundFaxService",
           "CallReminderService",
-          "LabInterface"
+          "LabInterface",
+          "VisitFaxService",
+          "FlowSheetBuilderService"
         ],
         "Type": [
           {
