@@ -168,23 +168,14 @@
       }
     ]
   },
-  "Mixpanel": {
-    "Interval": 120,
-    "All": [
+  "Option": {
+    "SequelSql": [
       {
-        "Name": [
-          "SureScripts",
-          "RxHub",
-          "EdiSimplified",
-          "LabInterface"
-        ],
-        "Token": "M060NDA1MjYxNzNMMbYwNTcxMTM3MjAxTUkyMTZONDMEAA=="
-      },
-      {
-        "Name": [
-          "PracticeEHR"
-        ],
-        "Token": "MzVOtkhKSjU0Nk8ytDBOMkpLMjRNMzU0MU1MNExNSjIDAA=="
+        "Id": "CAREMEDPC",
+        "Include": [],
+        "Exclude": [
+          "LAB_LAB_RESULT"
+        ]
       }
     ]
   }
