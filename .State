@@ -45,7 +45,7 @@
     ]
   },
   "HealthCheck": {
-    "Interval": 120,
+    "Interval": 60,
     "CheckInterval": 5,
     "Machine": [
       {
@@ -175,6 +175,13 @@
         "Include": [],
         "Exclude": [
           "LAB_LAB_RESULT"
+        ]
+      },
+      {
+        "Id": "PEHRTRIAL",
+        "Include": [],
+        "Exclude": [
+          "SCH_LEDGER_TYPE"
         ]
       }
     ]
