@@ -5,16 +5,12 @@
   },
   "Database": {
     "Limit": 150,
+    "LimitPerUser": 50,
     "Server": [
       {
         "Id": "*",
         "Name": "PEHRAUTH",
         "PoolMax": 50
-      },
-      {
-        "Id": "*",
-        "Name": "PEHRTRIAL",
-        "LimitPerUser": 50
       }
     ]
   },
