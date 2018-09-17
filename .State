@@ -10,6 +10,11 @@
         "Id": "*",
         "Name": "PEHRAUTH",
         "PoolMax": 50
+      },
+      {
+        "Id": "*",
+        "Name": "PEHRTRIAL",
+        "LimitPerUser": 50
       }
     ]
   },
