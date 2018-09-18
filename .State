@@ -176,7 +176,8 @@
         "Id": "CAREMEDPC",
         "Include": [],
         "Exclude": [
-          "LAB_LAB_RESULT"
+          "LAB_LAB_RESULT",
+          "SCH_LEDGER_TYPE"
         ]
       },
       {
