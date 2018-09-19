@@ -196,6 +196,13 @@
         "Exclude": [
           "SCH_LEDGER_TYPE"
         ]
+      },
+      {
+        "Id": "PEHRNEW",
+        "Include": [],
+        "Exclude": [
+          "SCH_LEDGER_TYPE"
+        ]
       }
     ]
   }
