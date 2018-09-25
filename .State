@@ -104,7 +104,8 @@
           "SureScripts",
           "RxHub",
           "EdiSimplified",
-          "LabInterface"
+          "LabInterface",
+          "Migrator"
         ],
         "Type": [
           {
