@@ -5,14 +5,7 @@
   },
   "Database": {
     "Limit": 150,
-    "LimitPerUser": 50,
-    "Server": [
-      {
-        "Id": "*",
-        "Name": "PEHRAUTH",
-        "PoolMax": 50
-      }
-    ]
+    "LimitPerUser": 25
   },
   "Bot": {
     "Current": 0,
@@ -194,6 +187,14 @@
     "SequelSql": [
       {
         "Id": "CAREMEDPC",
+        "Include": [],
+        "Exclude": [
+          "LAB_LAB_RESULT",
+          "SCH_LEDGER_TYPE"
+        ]
+      },
+      {
+        "Id": "ASPEMR1",
         "Include": [],
         "Exclude": [
           "LAB_LAB_RESULT",
