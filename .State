@@ -184,6 +184,26 @@
     ]
   },
   "Option": {
+    "Redactables": [
+      "CFG",
+      "CONFIG",
+      "DB",
+      "SSN",
+      "PASSWORD",
+      "PWD",
+      "PASS",
+      "ACCESS_TOKEN",
+      "AccessToken",
+      "TOKEN",
+      "API_KEY",
+      "ApiKey",
+      "AUTH_LOGIN",
+      "SETUP_LOGIN",
+      "HOSTEDKEY",
+      "GATEWAYID",
+      "MERCHANTID",
+      "REGISTRATIONKEY"
+    ],
     "SequelSql": [
       {
         "Id": "CAREMEDPC",
