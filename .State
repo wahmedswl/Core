@@ -95,6 +95,23 @@
     "All": [
       {
         "Name": [
+          "Production/Migrator/vNext",
+          "Production/Migrator/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndyMTEKDAoxd9cvcXdxDCrM9C0z8zR1qTSNSgwpSc0sMDAGAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "Production/RxHub/Api"
         ],
         "Type": [
