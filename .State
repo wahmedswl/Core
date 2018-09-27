@@ -95,6 +95,22 @@
     "All": [
       {
         "Name": [
+          "Production/PracticeEHR/Web1"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndyMfIOC/ULNNY3LzQLczWsDHHyy0uPTA7xNHKN8ncpt8wCAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "Production/Migrator/vNext",
           "Production/Migrator/Api"
         ],
