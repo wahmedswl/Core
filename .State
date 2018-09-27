@@ -95,6 +95,22 @@
     "All": [
       {
         "Name": [
+          "Production/RxHub/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndyMXI3NgkI8dM3K8lNTPUIzHAJcHEv9rAsz3BLzvY3KQ0FAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "Production/SureScripts/Api",
           "Production/SureScripts/Listener",
           "Production/SureScripts/Directory"
