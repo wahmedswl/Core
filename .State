@@ -1,8 +1,17 @@
 {
-  "UpdatedAt": 1538557190,
+  "UpdatedAt": 1538602027,
   "Feature": {
+    "Override": false,
     "Include": [],
-    "Exclude": []
+    "Exclude": [],
+    "Machine": [
+      {
+        "Id": "*",
+        "Ids": [],
+        "Include": [],
+        "Exclude": [ "Health Check" ]
+      }
+    ]
   },
   "Database": {
     "Limit": 150,
