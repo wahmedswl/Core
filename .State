@@ -1,4 +1,5 @@
 {
+  "UpdatedAt": 1538557190,
   "Feature": {
     "Include": [],
     "Exclude": []
@@ -6,6 +7,67 @@
   "Database": {
     "Limit": 150,
     "LimitPerUser": 25
+  },
+  "Option": {
+    "Redactables": [
+      "CFG",
+      "CONFIG",
+      "DB",
+      "SSN",
+      "PASSWORD",
+      "PWD",
+      "PASS",
+      "ACCESS_TOKEN",
+      "AccessToken",
+      "TOKEN",
+      "API_KEY",
+      "ApiKey",
+      "AUTH_LOGIN",
+      "SETUP_LOGIN",
+      "HOSTEDKEY",
+      "GATEWAYID",
+      "MERCHANTID",
+      "REGISTRATIONKEY"
+    ],
+    "SequelSql": [
+      {
+        "Id": "CAREMEDPC",
+        "Include": [],
+        "Exclude": [
+          "LAB_LAB_RESULT",
+          "SCH_LEDGER_TYPE"
+        ]
+      },
+      {
+        "Id": "ASPEMR1",
+        "Include": [],
+        "Exclude": [
+          "LAB_LAB_RESULT",
+          "SCH_LEDGER_TYPE"
+        ]
+      },
+      {
+        "Id": "PEHRTRIAL",
+        "Include": [],
+        "Exclude": [
+          "SCH_LEDGER_TYPE"
+        ]
+      },
+      {
+        "Id": "PEHR4",
+        "Include": [],
+        "Exclude": [
+          "SCH_LEDGER_TYPE"
+        ]
+      },
+      {
+        "Id": "PEHRNEW",
+        "Include": [],
+        "Exclude": [
+          "SCH_LEDGER_TYPE"
+        ]
+      }
+    ]
   },
   "Bot": {
     "Current": 0,
@@ -402,67 +464,6 @@
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9HO2MIyytNDP9sjKS8+tdA+tTE3OMCupNA5JLs43SkoBAA=="
           }
-        ]
-      }
-    ]
-  },
-  "Option": {
-    "Redactables": [
-      "CFG",
-      "CONFIG",
-      "DB",
-      "SSN",
-      "PASSWORD",
-      "PWD",
-      "PASS",
-      "ACCESS_TOKEN",
-      "AccessToken",
-      "TOKEN",
-      "API_KEY",
-      "ApiKey",
-      "AUTH_LOGIN",
-      "SETUP_LOGIN",
-      "HOSTEDKEY",
-      "GATEWAYID",
-      "MERCHANTID",
-      "REGISTRATIONKEY"
-    ],
-    "SequelSql": [
-      {
-        "Id": "CAREMEDPC",
-        "Include": [],
-        "Exclude": [
-          "LAB_LAB_RESULT",
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "ASPEMR1",
-        "Include": [],
-        "Exclude": [
-          "LAB_LAB_RESULT",
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "PEHRTRIAL",
-        "Include": [],
-        "Exclude": [
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "PEHR4",
-        "Include": [],
-        "Exclude": [
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "PEHRNEW",
-        "Include": [],
-        "Exclude": [
-          "SCH_LEDGER_TYPE"
         ]
       }
     ]
