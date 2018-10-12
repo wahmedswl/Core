@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1538602027,
+  "UpdatedAt": 1539377332,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -15,7 +15,7 @@
   },
   "Database": {
     "Limit": 150,
-    "LimitPerUser": 25
+    "LimitPerUser": 50
   },
   "Option": {
     "Redactables": [
@@ -31,6 +31,7 @@
       "TOKEN",
       "API_KEY",
       "ApiKey",
+      "Key",
       "AUTH_LOGIN",
       "SETUP_LOGIN",
       "HOSTEDKEY",
@@ -76,6 +77,18 @@
           "SCH_LEDGER_TYPE"
         ]
       }
+    ],
+    "IgnoreEx": [
+      "LockTimeoutException",
+      "ONSException",
+      "RegulateNumOfCons"
+    ],
+    "OnlineWriter": [
+      "SequelMed.Core.Log.Writer.StackifyWriter",
+      "SequelMed.Core.Log.Writer.SeqWriter",
+      "SequelMed.Core.Log.Writer.EmailWriter",
+      "SequelMed.Core.Log.Writer.DatadogWriter",
+      "SequelMed.Core.Log.Writer.LogzIOWriter"
     ]
   },
   "Bot": {
