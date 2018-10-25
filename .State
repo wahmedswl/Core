@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1539377332,
+  "UpdatedAt": 1540473520,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -9,7 +9,7 @@
         "Id": "*",
         "Ids": [],
         "Include": [],
-        "Exclude": [ "Health Check" ]
+        "Exclude": [ "Health Check", "System Check" ]
       }
     ]
   },
