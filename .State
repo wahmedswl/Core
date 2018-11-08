@@ -441,7 +441,7 @@
       },
       {
         "Name": [
-          "Production/Migrator/Service",
+          "Production/Migrator",
           "Production/Migrator/Api"
         ],
         "Type": [
