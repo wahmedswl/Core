@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1541623787,
+  "UpdatedAt": 1541775131,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -280,7 +280,8 @@
       },
       {
         "Name": [
-          "Production/EdiSimplified"
+          "Production/EdiSimplified",
+          "EdiSimplified"
         ],
         "Type": [
           {
