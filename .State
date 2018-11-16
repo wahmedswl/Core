@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1541775131,
+  "UpdatedAt": 1542412458,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -182,6 +182,22 @@
   "Slack": {
     "Interval": 1,
     "All": [
+      {
+        "Name": [
+          "Production/HL7Inbound/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndyNTcJMTb29dUP8vc2Cc4t9/aucs1xyioNtPQ3jaxwDjcAAA=="
+          }
+        ]
+      },
       {
         "Name": [
           "Production/VisitSignOffService/*"
