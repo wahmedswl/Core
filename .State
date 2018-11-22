@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1542412458,
+  "UpdatedAt": 1542910813,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -27,6 +27,7 @@
       "DB",
       "SSN",
       "PASSWORD",
+      "DBPassword",
       "PWD",
       "PASS",
       "ACCESS_TOKEN",
