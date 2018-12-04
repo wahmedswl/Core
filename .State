@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1543914265,
+  "UpdatedAt": 1543915031,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -218,10 +218,13 @@
       {
         "Name": [
           "Production/EmailReminderService/*",
+          "SequelMedEmailReminderService_PEHRNEW",
           "SequelMedEmailReminderService_TRIAL",
+          "SequelMedEmailReminderService_PEHR1",
+          "SequelMedEmailReminderService_PEHR2",
           "SequelMedEmailReminderService_PEHR3",
           "SequelMedEmailReminderService_PEHR4",
-          "SequelMedEmailReminderService_PEHRNEW"
+          "SequelMedEmailReminderService_PEHR5"
         ],
         "Type": [
           {
@@ -270,8 +273,13 @@
       {
         "Name": [
           "Production/PlanRxService/*",
+          "SequelMedPlanRxService_PEHRNEW",
+          "SequelMedPlanRxService_PEHRTRIAL",
+          "SequelMedPlanRxService_PEHR1",
+          "SequelMedPlanRxService_PEHR2",
+          "SequelMedPlanRxService_PEHR3",
           "SequelMedPlanRxService_PEHR4",
-          "SequelMedPlanRxService_PEHRTRIAL"
+          "SequelMedPlanRxService_PEHR5"
         ],
         "Type": [
           {
