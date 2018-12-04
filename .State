@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1543910703,
+  "UpdatedAt": 1543914265,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -217,7 +217,11 @@
       },
       {
         "Name": [
-          "Production/EmailReminderService/*"
+          "Production/EmailReminderService/*",
+          "SequelMedEmailReminderService_TRIAL",
+          "SequelMedEmailReminderService_PEHR3",
+          "SequelMedEmailReminderService_PEHR4",
+          "SequelMedEmailReminderService_PEHRNEW"
         ],
         "Type": [
           {
