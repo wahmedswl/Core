@@ -1,5 +1,5 @@
 {
-  "UpdatedAt": 1542910813,
+  "UpdatedAt": 1543910703,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -266,7 +266,8 @@
       {
         "Name": [
           "Production/PlanRxService/*",
-          "SequelMedPlanRxService_PEHR4"
+          "SequelMedPlanRxService_PEHR4",
+          "SequelMedPlanRxService_PEHRTRIAL"
         ],
         "Type": [
           {
