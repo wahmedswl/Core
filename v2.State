@@ -1,6 +1,6 @@
 {
   "Version": "v2",
-  "UpdatedAt": 1544034192,
+  "UpdatedAt": 1544111631,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -19,7 +19,7 @@
   },
   "Database": {
     "Limit": 150,
-    "LimitPerUser": 50
+    "LimitPerUser": 25
   },
   "Option": {
     "Redactables": [
@@ -28,7 +28,6 @@
       "DB",
       "SSN",
       "PASSWORD",
-      "DBPassword",
       "PWD",
       "PASS",
       "ACCESS_TOKEN",
@@ -44,7 +43,8 @@
       "MERCHANTID",
       "REGISTRATIONKEY",
       "tokenRef",
-      "activationCode"
+      "activationCode",
+      "DBPassword"
     ],
     "SequelSql": [
       {
@@ -362,7 +362,21 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/GCS"
+          "PracticeEHR"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydHIxNjc2cNVPLwn0TnUz8kz1d8kISzeODHMtKK/MTvcFAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/FHP"
         ],
         "Type": [
           {
@@ -372,7 +386,7 @@
               "HC",
               "SC"
             ],
-            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9fYyDTD2Ntd3qSwx8zdO9DbIyyozD01OdsypcEkqzS4GAA=="
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9XEzMQzwi9DP8U/LNQxM98rwqKyICEszdDSKNDcuc8wDAA=="
           }
         ]
       },
@@ -570,20 +584,6 @@
               "GB"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydLQ0DzFydtZ3zgwPq8go9HDPMMkI8S1LDQpwsTAOCIsEAA=="
-          }
-        ]
-      },
-      {
-        "Name": [
-          "PracticeEHR"
-        ],
-        "Type": [
-          {
-            "Id": "GB",
-            "Ids": [
-              "GB"
-            ],
-            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydHIxNjc2cNVPLwn0TnUz8kz1d8kISzeODHMtKK/MTvcFAA=="
           }
         ]
       },
