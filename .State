@@ -1,5 +1,6 @@
 {
-  "UpdatedAt": 1544111580,
+  "Version": "v3",
+  "UpdatedAt": 1548682810,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -16,12 +17,23 @@
       }
     ]
   },
-  "Database": {
-    "Limit": 150,
-    "LimitPerUser": 25
-  },
-  "Option": {
-    "Redactables": [
+  "Option": {},
+  "Logger": {
+    "Exception": {
+      "Whitelist": [
+        "LockTimeoutException",
+        "ONSException",
+        "RegulateNumOfCons"
+      ]
+    },
+    "OnlineWriter": [
+      "SequelMed.Core.Log.Writer.StackifyWriter",
+      "SequelMed.Core.Log.Writer.SeqWriter",
+      "SequelMed.Core.Log.Writer.EmailWriter",
+      "SequelMed.Core.Log.Writer.DatadogWriter",
+      "SequelMed.Core.Log.Writer.LogzIOWriter"
+    ],
+    "Redacted": [
       "CFG",
       "CONFIG",
       "DB",
@@ -44,61 +56,48 @@
       "tokenRef",
       "activationCode",
       "DBPassword"
-    ],
-    "SequelSql": [
-      {
-        "Id": "CAREMEDPC",
-        "Include": [],
-        "Exclude": [
-          "LAB_LAB_RESULT",
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "ASPEMR1",
-        "Include": [],
-        "Exclude": [
-          "LAB_LAB_RESULT",
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "PEHRTRIAL",
-        "Include": [],
-        "Exclude": [
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "PEHR4",
-        "Include": [],
-        "Exclude": [
-          "SCH_LEDGER_TYPE"
-        ]
-      },
-      {
-        "Id": "PEHRNEW",
-        "Include": [],
-        "Exclude": [
-          "SCH_LEDGER_TYPE"
-        ]
-      }
-    ],
-    "IgnoreEx": [
-      "LockTimeoutException",
-      "ONSException",
-      "RegulateNumOfCons"
-    ],
-    "OnlineWriter": [
-      "SequelMed.Core.Log.Writer.StackifyWriter",
-      "SequelMed.Core.Log.Writer.SeqWriter",
-      "SequelMed.Core.Log.Writer.EmailWriter",
-      "SequelMed.Core.Log.Writer.DatadogWriter",
-      "SequelMed.Core.Log.Writer.LogzIOWriter"
     ]
   },
+  "SequelSql": [
+    {
+      "Id": "CAREMEDPC",
+      "Include": [],
+      "Exclude": [
+        "LAB_LAB_RESULT",
+        "SCH_LEDGER_TYPE"
+      ]
+    },
+    {
+      "Id": "ASPEMR1",
+      "Include": [],
+      "Exclude": [
+        "LAB_LAB_RESULT",
+        "SCH_LEDGER_TYPE"
+      ]
+    },
+    {
+      "Id": "PEHRTRIAL",
+      "Include": [],
+      "Exclude": [
+        "SCH_LEDGER_TYPE"
+      ]
+    },
+    {
+      "Id": "PEHR4",
+      "Include": [],
+      "Exclude": [
+        "SCH_LEDGER_TYPE"
+      ]
+    },
+    {
+      "Id": "PEHRNEW",
+      "Include": [],
+      "Exclude": [
+        "SCH_LEDGER_TYPE"
+      ]
+    }
+  ],
   "Bot": {
-    "Current": 0,
     "Interval": 120,
     "FromName": "Activity Bot",
     "ToName": "Waqas Ahmed",
@@ -127,22 +126,6 @@
       "wahmad@sequelmed.com",
       "sshah@sequelmed.com"
     ]
-  },
-  "HealthCheck": {
-    "Interval": 120,
-    "CheckInterval": 5,
-    "DownInterval": 5,
-    "Machine": [
-      {
-        "Id": "*",
-        "Database": [],
-        "Server": [
-        ]
-      }
-    ]
-  },
-  "SystemCheck": {
-    "Interval": 120
   },
   "Slack": {
     "Interval": 1,
@@ -735,5 +718,653 @@
         ]
       }
     ]
+  },
+  "HealthCheck": {
+    "Interval": 120,
+    "CheckInterval": 5,
+    "DownInterval": 5,
+    "Database": [],
+    "Machine": [
+      {
+        "Id": "*",
+        "Database": [],
+        "Http": [
+          {
+            "Id": "Production/PracticeEHR/CAREMED",
+            "Channel": [
+              "Production/PracticeEHR/CAREMED"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tdPTixKzU1N0SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0myTTaO9E0uCzNMCcwpd0p3tAUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Demo/PracticeEHR/FHP",
+            "Channel": [
+              "Demo/PracticeEHR/FHP"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tdPSc3N10vLKEjNKNJLzs/VzwQy9D1SE3NKMvQSiwsqAA==",
+              "Arugment": [
+                "S0mydTZ2MXT28KqwTAv1cHS0tQUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Demo/PracticeEHR",
+            "Channel": [
+              "Demo/PracticeEHR"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tdPSc3N1ysoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXT28KqwTAv1cHS0tQUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/EMR1",
+            "Channel": [
+              "Production/PracticeEHR/EMR1"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tdPzS0y1CsoSkwuyUxOTc0o0kvOz9XPdPUI0vdITcwpydBLLC6oAAA=",
+              "Arugment": [
+                "S0myTdYP9fNND3QEAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/GCS",
+            "Channel": [
+              "Production/PracticeEHR/GCS"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tdPTy7WKyhKTC7JTE5NzSjSS87P1c8EMvQ9UhNzSjL0EosLKgA=",
+              "Arugment": [
+                "S0myTTZO9ndKd7QFAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "FHP/Authentication/Api",
+            "Channel": [
+              "FHP/Authentication/Api"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tfPyU/PzNNLyyhIzSjSS87P1fdITcwpydBLLC6oAAA=",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/Authentication/Api",
+            "Channel": [
+              "Production/Authentication/Api"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tfPyU/PzNMrKEpMLslMTk3NKNJLzs/V90hNzCnJ0EssLqgAAA==",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/NetHealth",
+            "Channel": [
+              "Production/PracticeEHR/NetHealth"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tfPSy3JSE3MKcnQKyhKTC7JTE5NzSjSS87P1c8EMvQ9IHKJxQUVAA==",
+              "Arugment": [
+                "S0mytTD29bOIcDK0dMyrcHR0tAUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHR1",
+            "Channel": [
+              "Production/SequelMedServices/PEHR1"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvSM0oMtQrKEpMLslMTgVy9JLzc/WDUwtLU3N8U1OCU4vKgOLFCBF9j9TEnJIMvcTiggoA",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHR2",
+            "Channel": [
+              "Production/SequelMedServices/PEHR2"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvSM0oMtIrKEpMLslMTgVy9JLzc/WDUwtLU3N8U1OCU4vKgOLFCBF9j9TEnJIMvcTiggoA",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHR3",
+            "Channel": [
+              "Production/SequelMedServices/PEHR3"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvSM0oMtYrKEpMLslMTgVy9JLzc/WDUwtLU3N8U1OCU4vKgOLFCBF9j9TEnJIMvcTiggoA",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHR4",
+            "Channel": [
+              "Production/SequelMedServices/PEHR4"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvSM0oMtErKEpMLslMTgVy9JLzc/WDUwtLU3N8U1OCU4vKgOLFCBF9j9TEnJIMvcTiggoA",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHR5",
+            "Channel": [
+              "Production/SequelMedServices/PEHR5"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvSM0oMtUrKEpMLslMTgVy9JLzc/WDUwtLU3N8U1OCU4vKgOLFCBF9j9TEnJIMvcTiggoA",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/RxHub/Api",
+            "Channel": [
+              "Production/RxHub/Api"
+            ],
+            "Check": [
+              "hb",
+              "db",
+              "rb"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvqsgoTSooyk8pqdArTi0sTc3JTU3RS87P1Q+q8ChNcs7JTM0r0fdITcwpydBLLC6oAAA=",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SureScripts/Api",
+            "Channel": [
+              "Production/SureScripts/Api"
+            ],
+            "Check": [
+              "hb",
+              "db",
+              "ss"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLi4oyk8pqdArTi0sTc3JTU3RS87P1S8zNNAPLi1KDU4uyiwo0fdITcwpydBLLC6oAAA=",
+              "Arugment": [
+                "y0vMTbVNLMgEAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SureScripts/Directory",
+            "Channel": [
+              "Production/SureScripts/Directory"
+            ],
+            "Check": [
+              "hb",
+              "db",
+              "sd"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLi4oyk8pqdArTi0sTc3JTU3RS87P1Q8oyi/LTEktCi1ISSxJ1fdITcwpydBLLC6oAAA=",
+              "Arugment": [
+                "y0vMTbVNySxKTS7JL6oEAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SureScripts/Listener",
+            "Channel": [
+              "Production/SureScripts/Listener"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLi4oyk8pqdArTi0sTc3JTU3RS87P1Q/ILU4PqtD3SE3MKcnQSywuqAAA",
+              "Arugment": [
+                "y0vMTbXNySwuSc1LLQIA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Staging/PracticeEHR",
+            "Channel": [
+              "Staging/PracticeEHR"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLklMT9UrKEpMLslMTk3NKNJLzs/VzwQy9D1SE3NKMvQSiwsqAA==",
+              "Arugment": [
+                "S0mydTZ2MXR2zPdPjggydgp0tAUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Staging/Authentication/Api",
+            "Channel": [
+              "Staging/Authentication/Api"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLklMz8xL1ysoSkwuyUxOTc0o0kvOz9X3SE3MKcnQSywuqAAA",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SupportPortal",
+            "Channel": [
+              "Production/SupportPortal"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLi0oyC8q0SsoSkwuyUxOTc0o0kvOz9X3SE3MKcnQSywuqAAA",
+              "Arugment": [
+                "y0vMTbUtLi0oyC8qAQA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Staging/SureScripts/Api",
+            "Channel": [
+              "Staging/SureScripts/Api"
+            ],
+            "Check": [
+              "hb",
+              "db",
+              "ss"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLi1KLU4uyiwoKdbLLE4tLE3NyU1N0UvOz9UPBkoFg6X0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "y0vMTbVNLMgEAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Staging/SureScripts/Directory",
+            "Channel": [
+              "Staging/SureScripts/Directory"
+            ],
+            "Check": [
+              "hb",
+              "db",
+              "sd"
+            ],
+            "Server": {
+              "Url": "BcHBDYAwCAXQjeDuBB69OAApPylJmyJQ4/i+16s8D+bcgWxhXkmWeDbGhFJbk69YrynidpUCn5BRnST9+wE=",
+              "Arugment": [
+                "y0vMTbVNySxKTS7JL6oEAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Staging/SureScripts/Listener",
+            "Channel": [
+              "Staging/SureScripts/Listener"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLi1KLU4uyiwoKdbLLE4tLE3NyU1N0UvOz9UPyC1O1/dITcwpydBLLC6oAAA=",
+              "Arugment": [
+                "y0vMTbXNySwuSc1LLQIA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHRTRIAL",
+            "Channel": [
+              "Production/SequelMedServices/PEHRTRIAL"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvKcpMzNEtLtYrKEpMLslMTk3NKNJLzs/VD04tLE3N8U1NCU4tKgOKFyNE9D1SE3NKMvQSiwsqAA==",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/FHP",
+            "Channel": [
+              "Production/PracticeEHR/FHP"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT03SS8soSM0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0myTdb39XR0dLQFAA==",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/SequelMedServices/PEHRPROD",
+            "Channel": [
+              "Production/SequelMedServices/PEHRPROD"
+            ],
+            "Check": [
+              "hb",
+              "fs",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT03SKyhKTC7JTE5NzSjSS87P1Q9OLSxNzfFNTQlOLSoDihcjRPQ9UhNzSjL0EosLKgA=",
+              "Arugment": [
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/Web1",
+            "Channel": [
+              "Production/PracticeEHR/Web1"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1CsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXQO8KpyCUx2BAA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/Web2",
+            "Channel": [
+              "Production/PracticeEHR/Web2"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y0isoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXQO8KpyCUx2BAA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/Web3",
+            "Channel": [
+              "Production/PracticeEHR/Web3"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1isoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXQO8KpyCUx2BAA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/Web4",
+            "Channel": [
+              "Production/PracticeEHR/Web4"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y0SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR2zPeyyAsxcAx0tAUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/PEHR2",
+            "Channel": [
+              "Production/PracticeEHR/PEHR2"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR28XR2dLS1BQA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/PEHR3",
+            "Channel": [
+              "Production/PracticeEHR/PEHR3"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR28XR3dLS1BQA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/PEHR4",
+            "Channel": [
+              "Production/PracticeEHR/PEHR4"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR28XRydLS1BQA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/PEHR5",
+            "Channel": [
+              "Production/PracticeEHR/PEHR5"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR28XRzdLS1BQA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/Web5",
+            "Channel": [
+              "Production/PracticeEHR/Web5"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR28XR1dLS1BQA=",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/Web7",
+            "Channel": [
+              "Production/PracticeEHR/Web7"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00y1ysoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR2zPeyyAsxcAx0tAUA",
+                "K8nPTs2ztahML/COcCyudKzw9wku8PGJ8PQMydTCCgA="
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "SystemCheck": {
+    "Interval": 120
   }
 }
