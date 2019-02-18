@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1548686724,
+  "UpdatedAt": 1550512071,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -946,6 +946,21 @@
             ],
             "Server": {
               "Url": "yygpKSi20tcvqsgoTSooyk8pqdArTi0sTc3JTU3RS87P1Q+q8ChNcs7JTM0r0fdITcwpydBLLC6oAAA=",
+              "Arugment": []
+            }
+          },
+          {
+            "Id": "Staging/RxHub/Api",
+            "Channel": [
+              "Staging/RxHub/Api"
+            ],
+            "Check": [
+              "hb",
+              "db",
+              "rb"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvqsgoTSpJLS7RK04tLE3NyU1N0UvOz9UPqvAoTXLOyUzNK9H3SE3MKcnQSywuqAAA",
               "Arugment": []
             }
           },
