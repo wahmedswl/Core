@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1550512071,
+  "UpdatedAt": 1550583096,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -1059,6 +1059,19 @@
               "Arugment": [
                 "y0vMTbUtLi0oyC8qAQA="
               ]
+            }
+          },
+          {
+            "Id": "Production/Setup/Trial",
+            "Channel": [
+              "Production/Setup/Trial"
+            ],
+            "Check": [
+              "hb",
+              "ca"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvTi0pLdArKEpMLslMTk3NKNJLzs/V90hNzCnJ0EssLqgAAA=="
             }
           },
           {
