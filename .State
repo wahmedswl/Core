@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1550583096,
+  "UpdatedAt": 1550659755,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -499,6 +499,22 @@
       },
       {
         "Name": [
+          "Production/Exostar/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydw409zF2j9AvL8pIynevdHV1LszICQ/JMHUtCi/zTTQFAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "Production/SureScripts/Api",
           "Production/SureScripts/Listener",
           "Production/SureScripts/Directory"
@@ -521,7 +537,8 @@
           "RxHub",
           "EdiSimplified",
           "LabInterface",
-          "Migrator"
+          "Migrator",
+          "Exostar"
         ],
         "Type": [
           {
