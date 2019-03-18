@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1550680523,
+  "UpdatedAt": 1552912729,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -859,6 +859,7 @@
           },
           {
             "Id": "Production/PracticeEHR/NetHealth",
+            "Disable": true,
             "Channel": [
               "Production/PracticeEHR/NetHealth"
             ],
@@ -1208,6 +1209,7 @@
           },
           {
             "Id": "Production/PracticeEHR/Web2",
+            "Disable": true,
             "Channel": [
               "Production/PracticeEHR/Web2"
             ],
@@ -1225,6 +1227,7 @@
           },
           {
             "Id": "Production/PracticeEHR/Web3",
+            "Disable": true,
             "Channel": [
               "Production/PracticeEHR/Web3"
             ],
