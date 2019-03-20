@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1552912729,
+  "UpdatedAt": 1553116656,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -93,6 +93,14 @@
       "Id": "PEHRNEW",
       "Include": [],
       "Exclude": [
+        "SCH_LEDGER_TYPE"
+      ]
+    },
+    {
+      "Id": "IMA",
+      "Include": [],
+      "Exclude": [
+        "LAB_LAB_RESULT",
         "SCH_LEDGER_TYPE"
       ]
     }
@@ -333,6 +341,23 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9XEzMQzwi9DP8U/LNQxM98rwqKyICEszdDSKNDcuc8wDAA=="
+          }
+        ]
+      },
+
+      {
+        "Name": [
+          "Production/PracticeEHR/GCS"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9fYyDTD2Ntd3qSwx8zdO9DbIyyozD01OdsypcEkqzS4GAA=="
           }
         ]
       },
