@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1553168315,
+  "UpdatedAt": 1554210772,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -344,7 +344,6 @@
           }
         ]
       },
-
       {
         "Name": [
           "Production/PracticeEHR/GCS"
@@ -769,6 +768,43 @@
     "Machine": [
       {
         "Id": "*",
+        "Snooze": [
+          {
+            "Day": "Monday",
+            "From": 0,
+            "To": 5
+          },
+          {
+            "Day": "Tuesday",
+            "From": 0,
+            "To": 5
+          },
+          {
+            "Day": "Wednesday",
+            "From": 0,
+            "To": 5
+          },
+          {
+            "Day": "Thursday",
+            "From": 0,
+            "To": 5
+          },
+          {
+            "Day": "Friday",
+            "From": 0,
+            "To": 5
+          },
+          {
+            "Day": "Saturday",
+            "From": 0,
+            "To": 5
+          },
+          {
+            "Day": "Sunday",
+            "From": 0,
+            "To": 5
+          }
+        ],
         "Database": [],
         "Http": [
           {
