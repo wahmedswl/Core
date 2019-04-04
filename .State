@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1554210772,
+  "UpdatedAt": 1554399459,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -1082,6 +1082,19 @@
               "Arugment": [
                 "y0vMTbXNySwuSc1LLQIA"
               ]
+            }
+          },
+          {
+            "Id": "Production/LabInterface/Api",
+            "Channel": [
+              "Production/LabInterface/Api"
+            ],
+            "Check": [
+              "hb",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvLinOSUzSK04tLE3NyU1N0UvOz9X3SUwKKQ5OLSrLTE7V90hNzCnJ0EssLqgAAA=="
             }
           },
           {
