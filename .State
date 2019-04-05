@@ -23,8 +23,7 @@
       "Whitelist": [
         "LockTimeoutException",
         "ONSException",
-        "RegulateNumOfCons",
-        "=== Pre-bind state information ==="
+        "RegulateNumOfCons"
       ]
     },
     "OnlineWriter": [
