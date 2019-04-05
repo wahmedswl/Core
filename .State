@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1554399459,
+  "UpdatedAt": 1554486290,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -23,7 +23,8 @@
       "Whitelist": [
         "LockTimeoutException",
         "ONSException",
-        "RegulateNumOfCons"
+        "RegulateNumOfCons",
+        "=== Pre-bind state information ==="
       ]
     },
     "OnlineWriter": [
