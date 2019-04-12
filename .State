@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1554486290,
+  "UpdatedAt": 1555079622,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -131,7 +131,6 @@
     "CC": [
       "iinayat@sequelmed.com",
       "tmasood@sequelmed.com",
-      "wahmad@sequelmed.com",
       "sshah@sequelmed.com"
     ]
   },
