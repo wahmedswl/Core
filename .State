@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1555079622,
+  "UpdatedAt": 1555330852,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -1282,6 +1282,7 @@
           },
           {
             "Id": "Production/PracticeEHR/Web1",
+            "Disable": true,
             "Channel": [
               "Production/PracticeEHR/Web1"
             ],
