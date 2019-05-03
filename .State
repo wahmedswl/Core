@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1555330852,
+  "UpdatedAt": 1556882661,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -132,6 +132,20 @@
       "iinayat@sequelmed.com",
       "tmasood@sequelmed.com",
       "sshah@sequelmed.com"
+    ],
+    "Teams": [
+      {
+        "Products": [
+          "*"
+        ],
+        "ToName": "Waqas Ahmed",
+        "ToEmail": "wahmed@sequelmed.com",
+        "CC": [
+          "iinayat@sequelmed.com",
+          "tmasood@sequelmed.com",
+          "sshah@sequelmed.com"
+        ]
+      }
     ]
   },
   "Slack": {
@@ -718,6 +732,38 @@
       },
       {
         "Name": [
+          "Production/SequelMedServices/IMA"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfyMjcJdnQLMte3yMx1DPJKDw0tywnwTvWwCMzNKg6xSAsHAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CAREMEDPC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfycvP2MghxCtQvdfZ3NCgozM4ONi/xyCxNrkx0TM7yDDQAAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "SequelMedBusiness",
           "SequelMedEDI",
           "SequelMedFax",
@@ -1282,7 +1328,6 @@
           },
           {
             "Id": "Production/PracticeEHR/Web1",
-            "Disable": true,
             "Channel": [
               "Production/PracticeEHR/Web1"
             ],
