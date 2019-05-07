@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1556916646,
+  "UpdatedAt": 1557229952,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -503,6 +503,38 @@
       },
       {
         "Name": [
+          "Production/PracticeEHR/WebN"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfycgu0tPT29dIPSEnOzCjICHDJy8vKyXav8M+tzAiJCvUHAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/WebT"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfy8nJzcbPwc9Qv9DYyD4oMq/LzN07JSfU2CXTxyUvM848EAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "Production/Migrator",
           "Production/Migrator/Api"
         ],
@@ -743,6 +775,22 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfyMjcJdnQLMte3yMx1DPJKDw0tywnwTvWwCMzNKg6xSAsHAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/EANQ"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfy8jL1MDM3M9b3cEyuKnIqLjZNDvYyyDUwSgpy9UzydjEHAA=="
           }
         ]
       },
@@ -1484,6 +1532,7 @@
           },
           {
             "Id": "Production/PracticeEHR/Web7",
+            "Disable": true,
             "Channel": [
               "Production/PracticeEHR/Web7"
             ],
@@ -1494,6 +1543,40 @@
             ],
             "Server": {
               "Url": "yygpKSi20tcvT00y1ysoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR2zPeyyAsxcAx0tAUA"
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/WebN",
+            "Channel": [
+              "Production/PracticeEHR/WebN"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT03K0ysoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXQO8KpyCUx2BAA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/WebT",
+            "Channel": [
+              "Production/PracticeEHR/WebT"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT00q0SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
               "Arugment": [
                 "S0mydTZ2MXR2zPeyyAsxcAx0tAUA"
               ]
