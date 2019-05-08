@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1557242483,
+  "UpdatedAt": 1557309884,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -98,6 +98,14 @@
     },
     {
       "Id": "IMA",
+      "Include": [],
+      "Exclude": [
+        "LAB_LAB_RESULT",
+        "SCH_LEDGER_TYPE"
+      ]
+    },
+    {
+      "Id": "EANQ",
       "Include": [],
       "Exclude": [
         "LAB_LAB_RESULT",
