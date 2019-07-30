@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1563372076,
+  "UpdatedAt": 1564492254,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -375,6 +375,22 @@
       },
       {
         "Name": [
+          "Production/PracticeEHR/WebD"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfyCQgNd3Z0ttT3NSszNfP3DQ/NzUqvCnWKSA2sCjP0KYsCAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
           "Production/PracticeEHR/Web1"
         ],
         "Type": [
@@ -498,6 +514,22 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9TJ29I30DtY3rkwvMI0scy10C071S8k19orIKclPLUsHAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/WebSW"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfyCQvwtnD2itTPKyk2jsrNMC9I9wuNdMtK9QywNM0NyU4FAA=="
           }
         ]
       },
@@ -1121,6 +1153,23 @@
             }
           },
           {
+            "Id": "Production/PracticeEHR/WebD",
+            "Channel": [
+              "Production/PracticeEHR/WebD"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT01K0SsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXT28KqwTAv1cHS0tQUA"
+              ]
+            }
+          },
+          {
             "Id": "Production/SequelMedServices/PEHRTRIAL",
             "Channel": [
               "Production/SequelMedServices/PEHRTRIAL"
@@ -1359,6 +1408,23 @@
             "Id": "Production/PracticeEHR/Web8",
             "Channel": [
               "Production/PracticeEHR/Web8"
+            ],
+            "Check": [
+              "hb",
+              "ca",
+              "db"
+            ],
+            "Server": {
+              "Url": "yygpKSi20tcvT02y0CsoSkwuyUxOTc0o0kvOz9XPBDL0PVITc0oy9BKLCyoA",
+              "Arugment": [
+                "S0mydTZ2MXR28XRydLS1BQA="
+              ]
+            }
+          },
+          {
+            "Id": "Production/PracticeEHR/WebSW",
+            "Channel": [
+              "Production/PracticeEHR/WebSW"
             ],
             "Check": [
               "hb",
