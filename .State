@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1564492254,
+  "UpdatedAt": 1565023674,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -780,15 +780,15 @@
         "Name": [
           "PlanRxService",
           "LabInterfaceService",
-          "EmailReminderService",
           "VisitSignOffService",
           "InboundFaxService",
-          "CallReminderService",
           "LabInterface",
           "VisitFaxService",
           "FlowSheetBuilderService",
+          "PatientDataService",
           "ReminderService",
-          "PatientDataService"
+          "EmailReminderService",
+          "CallReminderService"
         ],
         "Type": [
           {
@@ -797,6 +797,22 @@
               "GB"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9HO2MIyytNDP9sjKS8+tdA+tTE3OMCupNA5JLs43SkoBAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/ReminderService/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfyCTIL8jMwM9cvy/dJLamoKI0yMk4LLC9ItnRzzXWP8HYBAA=="
           }
         ]
       },
