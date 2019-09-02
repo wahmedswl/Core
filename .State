@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1565114341,
+  "UpdatedAt": 1567414868,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -1103,6 +1103,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHRNEW",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHRNEW"
             ],
@@ -1151,6 +1152,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHRTRIAL",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHRTRIAL"
             ],
@@ -1182,6 +1184,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHR1",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHR1"
             ],
@@ -1213,6 +1216,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHR2",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHR2"
             ],
@@ -1244,6 +1248,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHR3",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHR3"
             ],
@@ -1275,6 +1280,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHR4",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHR4"
             ],
@@ -1306,6 +1312,7 @@
           },
           {
             "Id": "Production/SequelMedServices/PEHR5",
+            "Disable": true,
             "Channel": [
               "Production/SequelMedServices/PEHR5"
             ],
