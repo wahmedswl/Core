@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1567414868,
+  "UpdatedAt": 1576242544,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -1577,6 +1577,7 @@
           },
           {
             "Id": "Staging/RxHub/Api",
+            "Disable": true,
             "Channel": [
               "Staging/RxHub/Api"
             ],
