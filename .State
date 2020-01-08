@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1576756722,
+  "UpdatedAt": 1578515789,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -56,7 +56,9 @@
       "REGISTRATIONKEY",
       "tokenRef",
       "activationCode",
-      "DBPassword"
+      "DBPassword",
+      "supportTicketPassword",
+      "ByPassPassword"
     ]
   },
   "SequelSql": [
