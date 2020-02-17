@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1578515789,
+  "UpdatedAt": 1581965074,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -169,7 +169,9 @@
           "EdiSimplified",
           "LabInterface",
           "Migrator",
-          "Exostar"
+          "Exostar",
+          "PracticeEHRWebApi",
+          "AdminSupportPortal"
         ],
         "Type": [
           {
@@ -234,8 +236,7 @@
       },
       {
         "Name": [
-          "PatientPortal",
-          "AdminSupportPortal"
+          "PatientPortal"
         ],
         "Type": [
           {
