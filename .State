@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1581965074,
+  "UpdatedAt": 1581971917,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -162,6 +162,21 @@
   "Slack": {
     "Interval": 1,
     "All": [
+      {
+        "Name": [
+          "Core/PracticeEHRWebApi"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndydLQ0DzFydtZ3zgwPq8go9HDPMMkI8S1LDQpwsTAOCIsEAA=="
+          }
+        ],
+        "Level": "Notice"
+      },
       {
         "Name": [
           "SureScripts",
