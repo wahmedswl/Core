@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1581971917,
+  "UpdatedAt": 1584550727,
   "Feature": {
     "Override": false,
     "Include": [],
@@ -164,7 +164,8 @@
     "All": [
       {
         "Name": [
-          "Core/PracticeEHRWebApi"
+          "PracticeEHRWebApi",
+          "PointClickCareApi"
         ],
         "Type": [
           {
