@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1590757028,
+  "UpdatedAt": 1590772609,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -12,6 +12,8 @@
         "Ids": [],
         "Include": [],
         "Exclude": [
+          "Health Check",
+          "System Check",
           "Activity Report"
         ]
       }
