@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1590772609,
+  "UpdatedAt": 1591023710,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -415,7 +415,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web2"
+          "Production/PracticeEHR/Web2",
+          "Production/PracticeEHR/Cloud2"
         ],
         "Type": [
           {
@@ -431,7 +432,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web3"
+          "Production/PracticeEHR/Web3",
+          "Production/PracticeEHR/Cloud3"
         ],
         "Type": [
           {
