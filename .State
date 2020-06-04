@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1591023710,
+  "UpdatedAt": 1591296766,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -176,7 +176,8 @@
           "Migrator",
           "Exostar",
           "PracticeEHRWebApi",
-          "AdminSupportPortal"
+          "AdminSupportPortal",
+          "PMPGateway"
         ],
         "Type": [
           {
