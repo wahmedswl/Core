@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1591296766,
+  "UpdatedAt": 1596633760,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -177,7 +177,9 @@
           "Exostar",
           "PracticeEHRWebApi",
           "AdminSupportPortal",
-          "PMPGateway"
+          "PMPGateway",
+          "EVVGateway",
+          "PointClickCare"
         ],
         "Type": [
           {
@@ -784,6 +786,22 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10nfyMjcJdnQLMte3yMx1DPJKDw0tywnwTvWwCMzNKg6xSAsHAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/ACTIVE"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLQI8PINCLaM0M+vcHfKy8kuLUh1DcjwTjcurkh0qQh2cQMA"
           }
         ]
       },
