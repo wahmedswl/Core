@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1596726128,
+  "UpdatedAt": 1596732667,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -818,6 +818,70 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLQI8PINCLaM0M+vcHfKy8kuLUh1DcjwTjcurkh0qQh2cQMA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CMED"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLQI9nX1cw8N0s/18wwNS871KvfxyUyJDC00zg0Nzgj2DwUA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/LMAPC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMDSPcgwLcg7y1fcwD7YIq3RO8zFzCguN9IgsSs8tcCsNyQcA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CFHC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLQ0DrVwDfV21PczTC0ycC8vDSsKKrDMzYvwqvI1DQoPSgcA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/NASSIM"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLRwtQw3cDXw1k/KKnZ2cS3PK4iMKnCsyk9P9i3M9CkxSQUA"
           }
         ]
       },
