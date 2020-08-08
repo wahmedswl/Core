@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1596735474,
+  "UpdatedAt": 1596886148,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -906,6 +906,22 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLQ0MTb0czMy0c+1DHD0y070cEn0SLMwiSiv8DF3rTQMyAUA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/SJFA"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLRwN/Mz8TYI0y8P9IsyCgyuMHJMzy4JLI4sdzLIz8rx9AEA"
           }
         ]
       },
