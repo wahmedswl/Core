@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1596886148,
+  "UpdatedAt": 1597243052,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -990,7 +990,8 @@
           "SequelMedEmailReminderService_PEHR2",
           "SequelMedEmailReminderService_PEHR3",
           "SequelMedEmailReminderService_PEHR4",
-          "SequelMedEmailReminderService_PEHR5"
+          "SequelMedEmailReminderService_PEHR5",
+          "SequelMedReminderService_CloudPEHR2"
         ],
         "Type": [
           {
