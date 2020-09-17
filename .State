@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1597243052,
+  "UpdatedAt": 1600366899,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -187,7 +187,7 @@
           "AdminSupportPortal",
           "PMPGateway",
           "EVVGateway",
-          "PointClickCare"
+          "PointClickCare*"
         ],
         "Type": [
           {
