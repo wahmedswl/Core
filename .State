@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1603828389,
+  "UpdatedAt": 1605041232,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -59,7 +59,12 @@
       "activationCode",
       "DBPassword",
       "supportTicketPassword",
-      "ByPassPassword"
+      "ByPassPassword",
+      "ACH_AUTH_KEY",
+      "API_SECRET",
+      "XGP_APIKEY",
+      "PF_AUTH_KEY",
+      "REGISTRATIONKEY"
     ]
   },
   "Sql": [],
@@ -832,7 +837,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/ACTIVE"
+          "Production/SequelMedServices/ACTIVE",
+          "Production/SequelMedServices/ACTIVEEC"
         ],
         "Type": [
           {
@@ -939,6 +945,54 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMLRwN/Mz8TYI0y8P9IsyCgyuMHJMzy4JLI4sdzLIz8rx9AEA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/WMC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHR1dgl1CnM11M/y9gkwCA1NziqqTHGLcnesrKoqCTf2SQUA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/EMR7"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQzdXEMNTF01S/wMgg38DB2NnZ296hKds0JS/cLzUotzgMA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CALARUNDEL"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHT19Qu39LZ01C8pSKtyS63yz0qz8LHILwwLzzX29Q8PcQMA"
           }
         ]
       },
