@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1605041232,
+  "UpdatedAt": 1605568998,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -530,7 +530,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web6"
+          "Production/PracticeEHR/Web6",
+          "Production/PracticeEHR/Cloud6"
         ],
         "Type": [
           {
@@ -546,7 +547,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web7"
+          "Production/PracticeEHR/Web7",
+          "Production/PracticeEHR/Cloud7"
         ],
         "Type": [
           {
@@ -562,7 +564,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web8"
+          "Production/PracticeEHR/Web8",
+          "Production/PracticeEHR/Cloud8"
         ],
         "Type": [
           {
@@ -752,6 +755,38 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9TEzNwj0itQPyCgrTc8xKLRMrCoqrHBJN0vNdy1yNgoFAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR6"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQN8zMPiQgz0C8pLjevqrKsTPR3cjUKKC4KMzXMzMjIzAcA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR7"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQNMAgzjjAM1XdKDc71rSjNK4r0Nk8L9I+w8Mm2tPDMSQIA"
           }
         ]
       },
