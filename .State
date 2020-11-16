@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1605568998,
+  "UpdatedAt": 1605569278,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -624,6 +624,22 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndy9fYyDTD2Ntd3qSwx8zdO9DbIyyozD01OdsypcEkqzS4GAA=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/SJFA"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQN9jHwdgsz1ndMTUrzKQ1LDC2oTEnPjSgp9M8L98l1MQAA"
           }
         ]
       },
