@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1605569278,
+  "UpdatedAt": 1605605270,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -696,7 +696,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR1"
+          "Production/SequelMedServices/PEHR1",
+          "Production/SequelMedServices/CloudPEHR1"
         ],
         "Type": [
           {
@@ -712,7 +713,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR2"
+          "Production/SequelMedServices/PEHR2",
+          "Production/SequelMedServices/CloudPEHR2"
         ],
         "Type": [
           {
@@ -728,7 +730,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR3"
+          "Production/SequelMedServices/PEHR3",
+          "Production/SequelMedServices/CloudPEHR3"
         ],
         "Type": [
           {
@@ -744,7 +747,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR4"
+          "Production/SequelMedServices/PEHR4",
+          "Production/SequelMedServices/CloudPEHR4"
         ],
         "Type": [
           {
@@ -760,7 +764,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR5"
+          "Production/SequelMedServices/PEHR5",
+          "Production/SequelMedServices/CloudPEHR5"
         ],
         "Type": [
           {
@@ -776,7 +781,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR6"
+          "Production/SequelMedServices/PEHR6",
+          "Production/SequelMedServices/CloudPEHR6"
         ],
         "Type": [
           {
@@ -792,7 +798,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHR7"
+          "Production/SequelMedServices/PEHR7",
+          "Production/SequelMedServices/CloudPEHR7"
         ],
         "Type": [
           {
@@ -803,6 +810,39 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQNMAgzjjAM1XdKDc71rSjNK4r0Nk8L9I+w8Mm2tPDMSQIA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR8",
+          "Production/SequelMedServices/CloudPEHR8"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQzCjL0NnUy008qt3B3L86qyMuxzK3ySjRKSbZwNMouMgIA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHRCP1"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHQzCjI1CHDy0/cP8A41MzAzNXI3zSjwMPAoN0wvzK8I9gcA"
           }
         ]
       },
