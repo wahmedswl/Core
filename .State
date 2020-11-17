@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1605605270,
+  "UpdatedAt": 1605608100,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -448,7 +448,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web1"
+          "Production/PracticeEHR/Web1",
+          "Production/PracticeEHR/Cloud1"
         ],
         "Type": [
           {
@@ -498,7 +499,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web4"
+          "Production/PracticeEHR/Web4",
+          "Production/PracticeEHR/Cloud4"
         ],
         "Type": [
           {
@@ -514,7 +516,8 @@
       },
       {
         "Name": [
-          "Production/PracticeEHR/Web5"
+          "Production/PracticeEHR/Web5",
+          "Production/PracticeEHR/Cloud5"
         ],
         "Type": [
           {
