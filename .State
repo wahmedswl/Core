@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1605797124,
+  "UpdatedAt": 1605872314,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -65,7 +65,11 @@
       "XGP_APIKEY",
       "PF_AUTH_KEY",
       "REGISTRATIONKEY"
-    ]
+    ],
+    "HashTags": {
+      "There is an issue encountered while scheduling Fax": "Outage::Fax",
+      "There is an issue encountered while resending Fax": "Outage::Fax"
+    }
   },
   "Sql": [],
   "SequelSql": [
