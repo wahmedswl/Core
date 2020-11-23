@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1605872314,
+  "UpdatedAt": 1606135308,
   "Option": {},
   "Feature": {
     "Override": false,
@@ -14,7 +14,8 @@
         "Exclude": [
           "Health Check",
           "Activity Report",
-          "Metrics Bot"
+          "Metrics Bot",
+          "System Check"
         ]
       }
     ]
