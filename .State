@@ -1,9 +1,16 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1606135308,
-  "Option": {},
+  "UpdatedAt": 1607183669,
+  "Option": {
+    "RemoteCfgOption": {
+      "*": {
+
+      }
+    }
+  },
   "Feature": {
     "Override": false,
+    "Enabled": [],
     "Include": [],
     "Exclude": [],
     "Machine": [
@@ -13,6 +20,10 @@
         "Include": [],
         "Exclude": [
           "Health Check",
+          "Health Check/Http",
+          "Health Check/Ping",
+          "Health Check/Gc",
+          "Health Check/Db",
           "Activity Report",
           "Metrics Bot",
           "System Check"
