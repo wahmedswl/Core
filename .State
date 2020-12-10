@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1607632425,
+  "UpdatedAt": 1607632814,
   "Option": {
     "RemoteCfgOption": {
       "*": {
@@ -205,9 +205,9 @@
           "Exostar",
           "PracticeEHRWebApi",
           "AdminSupportPortal",
-          "PMPGateway*",
-          "EVVGateway*",
-          "PointClickCare*",
+          "*PMPGateway*",
+          "*EVVGateway*",
+          "*PointClickCare*",
           "*PracticeEHR/CustomReport*"
         ],
         "Type": [
