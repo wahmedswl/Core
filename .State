@@ -1,10 +1,9 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1607183669,
+  "UpdatedAt": 1607632425,
   "Option": {
     "RemoteCfgOption": {
       "*": {
-
       }
     }
   },
@@ -397,6 +396,38 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHTx9Qoz9jZ01A8wifQrDwkLCXJyKgkoiYgwcnOqMKvKTwIA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "*EVVGateway*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHT3MwkwCfEy0w/JSs0vzozyzAsOqSwKTkvMMS/xzzALygEA"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "*PointClickCare*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ncyMHT3M3UJcfPy0892rSpwTo/ysIhwzS129vNy9spNzc0stgQA"
           }
         ]
       },
