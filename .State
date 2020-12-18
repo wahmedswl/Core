@@ -1,11 +1,15 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1607632814,
+  "UpdatedAt": 1608287676,
   "Option": {
     "RemoteCfgOption": {
       "*": {
       }
     }
+  },
+  "Deadlock": {
+    "RapidDuration": 5,
+    "RapidFailure": 10
   },
   "Feature": {
     "Override": false,
