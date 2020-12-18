@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1608287676,
+  "UpdatedAt": 1608319365,
   "Option": {
     "RemoteCfgOption": {
       "*": {
@@ -35,6 +35,9 @@
     ]
   },
   "Logger": {
+    "InstanceWait": 10,
+    "WriteWait": 30,
+    "PendingWait": 60,
     "Exception": {
       "Whitelist": [
         "LockTimeoutException",
