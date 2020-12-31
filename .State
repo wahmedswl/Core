@@ -1,6 +1,31 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1608554600,
+  "UpdatedAt": 1609430051,
+  "Deadlock": {
+    "Group": {
+      "Logger::Instance": {
+        "Name": "Logger"
+      },
+      "Logger::FlushPending": {
+        "Name": "Logger"
+      },
+      "Logger::InternalInstance": {
+        "Name": "Logger"
+      },
+      "Logger::WriteLog": {
+        "Name": "Logger"
+      },
+      "Initializer::DbQueries": {
+        "Name": "Initializer"
+      },
+      "Initializer::AppErrors": {
+        "Name": "Initializer"
+      },
+      "SequelSql::Oracle::Initialize": {
+        "Name": "Initializer"
+      }
+    }
+  },
   "Option": {
     "RemoteCfgOption": {
       "*": {
@@ -81,9 +106,12 @@
       "REGISTRATIONKEY"
     ],
     "HashTags": {
-      "There is an issue encountered while scheduling Fax": "Outage::Fax",
-      "There is an issue encountered while resending Fax": "Outage::Fax"
-    }
+      "There is an issue encountered while scheduling Fax": "#Outage-Fax",
+      "There is an issue encountered while resending Fax": "#Outage-Fax"
+    },
+    "AlertTags": [
+      "#Outage-*"
+    ]
   },
   "Sql": [],
   "SequelSql": [
@@ -499,7 +527,8 @@
       {
         "Name": [
           "Production/PracticeEHR/Web1",
-          "Production/PracticeEHR/Cloud1"
+          "Production/PracticeEHR/Cloud1",
+          "Production/PracticeEHR/CLOUD1"
         ],
         "Type": [
           {
@@ -750,7 +779,8 @@
       {
         "Name": [
           "Production/SequelMedServices/PEHR1",
-          "Production/SequelMedServices/CloudPEHR1"
+          "Production/SequelMedServices/CloudPEHR1",
+          "Production/SequelMedServices/CLOUDPEHR1"
         ],
         "Type": [
           {
