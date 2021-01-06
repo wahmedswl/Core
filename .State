@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1609430051,
+  "UpdatedAt": 1609941142,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -30,6 +30,9 @@
     "RemoteCfgOption": {
       "*": {
       }
+    },
+    "HashtagPattern": {
+      "-PracticeEHR": "-pehr"
     }
   },
   "Feature": {
