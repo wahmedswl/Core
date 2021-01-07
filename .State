@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1609941142,
+  "UpdatedAt": 1610018970,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -31,6 +31,9 @@
       "*": {
       }
     },
+    "VersionPattern": [
+      "-undefined"
+    ],
     "HashtagPattern": {
       "-PracticeEHR": "-pehr"
     }
