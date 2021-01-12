@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1610020578,
+  "UpdatedAt": 1610448920,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -211,8 +211,7 @@
     ],
     "CC": [
       "iinayat@sequelmed.com",
-      "tmasood@sequelmed.com",
-      "sshah@sequelmed.com"
+      "tmasood@sequelmed.com"
     ],
     "Teams": [
       {
