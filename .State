@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1610448920,
+  "UpdatedAt": 1610544859,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -1323,6 +1323,1108 @@
               "SC"
             ],
             "Url": "yygpKSi20tfPyM/PLtYrzklMztZLzs/VL04tKstMTi3WDzE0NIlwDnL10ndyiXSJMg51DdIPLU2sdCrzDXQNsXSqrHAKtyzOMEmL8i0GAA=="
+          }
+        ]
+      }
+    ]
+  },
+  "Teams": {
+    "Interval": 1,
+    "All": [
+      {
+        "Name": [
+          "SureScripts",
+          "RxHub",
+          "EdiSimplified",
+          "LabInterface",
+          "Migrator",
+          "Exostar",
+          "PracticeEHRWebApi",
+          "AdminSupportPortal",
+          "*PMPGateway*",
+          "*EVVGateway*",
+          "*PointClickCare*",
+          "*PracticeEHR/CustomReport*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "HdDJboJQGEDhZ/EaQARNsQpiQEERYm28FRzrnzJXkEFBcdPUZ6/pWX+r84PiOxog6RGpc85XmomJAYpT39MCtWE8hohFdzetwn+zJG51XqZHjZgXCoHjyTK/drIdfgUk2dtzlu1KbrYmkuabwYcm6ZOcxS7HC5FNK0AUPLNiXcNKS+eiHuSBu8wPRNmZJpaqjtcDk82CiC0u3STIKr8+JW0aUC3dADJkWi1HPp7cEl1oHQ+Nvd1n5l0lmH1t6BrbnkwcyIXA3MVTKtwLTsXK9HW2WgWZQr2LL3YaR5rBANQ1TxS8iDkSGaAb32Sp4jKiHNU4Gb0VdqPIkVMOkOK435Cbre3BLIZYlEQmTB1sheOBpcte+/zxqUhh3wBYAODno98/"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SureScripts/Api",
+          "Production/SureScripts/Listener",
+          "Production/SureScripts/Directory"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/LabInterface/Api",
+          "Production/LabInterface/Service"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/RxHub/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": "HdDZUoJQAIDhZ+kckEkhQsQQt9hERhLcQDgHF5QEVMgYvWny2XO6+m++q/8HpDcggc7dP5WvvLtE7xDjTaszUSziZX/vARrctqdr/G/MvMEIYVUsIQZSLgzD8IKB34vDsQqFMwYY9ykzRI5N6IZCXt77tqXqaFq/NFPkKTuJoQ+HQNcw3jPj2RjnzmS6Wb0FmrLw6TSj2BmN2PUTrJ48An5RUTuL+nYlKfjz9dlVxZLg4SGDSIqHaeQVsjunIJnXiE7XWvA4Nz9aaYI4tcrKnGnodDY6JpGBsUjK50c21rdbb8nNEgauJDeMgbc0xIwvytUcA0ewuBIDzwgSm2E/Oe0Y47w347ftCqOyktYdNGrI2ZHruWZK7mrnW2LSlgK7GD0O/f4B"
+          }
+        ]
+      },
+      {
+        "Name": [
+          "PatientPortal"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB"
+            ],
+            "Url": "HdDHcoJAAADQb2Ftg0HBFkVWBEECKlaaZsWCrKgIkgEvmfjtyeT+Tu8bXJ6gC+DLMuUPr5e0YSI+8rReayZs5cUDCjwPYeb/E7dl+eM7y3uUCdVlUZYCmrRVja0HjOubktC8D2i7IWuaTzCcYtdL0CvjA0L7lZinoKPkcrnW1sGdpY2iobcdwcwR1/kjJSvaEJewbl+t7X6RRlf9tOsNROtNXXCdq9u9IdA0xLkQVkiPS4lN4sqbtc0V7uM+Aqd++xNFsTzNdHXaNBAY6a2ZwNTmpZghjZ0RzB50dyphAQGiaBfi6wWHMHHcgPWYGkbISt93uGoilAT9NGxLHCQmMYrKvJL7ym7OkGo44/r50CAN8by65WPI8NHEr54L2uL49/PzCw=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/Exostar/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/Migrator",
+          "Production/Migrator/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/Authentication/Api"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/WebApi"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/HL7Inbound/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/EdiSimplified",
+          "EdiSimplified"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/CustomReport"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "*EVVGateway*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "*PointClickCare*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "PracticeEHR"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB"
+            ],
+            "Url": "HdDZUoJQGADgZwlUlEWl5mhamkOyiDaRLIfljxEQFCWWCG+afPaa7r+r75tIL8SUeLwWss1vWqYp8fpJGpEAzmxaX+cES1yCrIn/TUoa7eJzySauqoZmWB64pDSNekbasjkWAZYZwtT+yWFbna41ZCK1EthJteHo8xfjjACoath/iCYbg2YgZ42QOT2ZAL4NgERsvdytq9yM0wQ3C3aB0sJbrWreL6zy/gNjb8wPiobEpdbMirk18Fmj7o9uj0fEzQ8i5Dts02Ivk3SlbG87/NpglEo+M68UZXm50MhLWVtLLR/tFyj3CzpCXOrqSSrk0XPmqdLWDYPJjle8LhVDrr51KY3HOscizd8F7zdCT3GAyAZZELrGUVrFCEBK/3p+fgE="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/WebN"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/WebT"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/WebD"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web1",
+          "Production/PracticeEHR/Cloud1",
+          "Production/PracticeEHR/CLOUD1"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web2",
+          "Production/PracticeEHR/Cloud2"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web3",
+          "Production/PracticeEHR/Cloud3"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web4",
+          "Production/PracticeEHR/Cloud4"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web5",
+          "Production/PracticeEHR/Cloud5"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web6",
+          "Production/PracticeEHR/Cloud6"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web7",
+          "Production/PracticeEHR/Cloud7"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/Web8",
+          "Production/PracticeEHR/Cloud8"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/WebSW"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/FHP"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/GCS"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PracticeEHR/SJFA"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "SequelMedBusiness",
+          "SequelMedEDI",
+          "SequelMedFax",
+          "SequelMedLibrary",
+          "SequelMedMessaging",
+          "SequelMedPHR"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHRNEW"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHRTRIAL"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR1",
+          "Production/SequelMedServices/CloudPEHR1",
+          "Production/SequelMedServices/CLOUDPEHR1"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR2",
+          "Production/SequelMedServices/CloudPEHR2"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR3",
+          "Production/SequelMedServices/CloudPEHR3"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR4",
+          "Production/SequelMedServices/CloudPEHR4"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR5",
+          "Production/SequelMedServices/CloudPEHR5"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR6",
+          "Production/SequelMedServices/CloudPEHR6"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR7",
+          "Production/SequelMedServices/CloudPEHR7"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHR8",
+          "Production/SequelMedServices/CloudPEHR8"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/PEHRCP1"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CAREMEDPC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/EMR1"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/EANQ"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/GCS"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/IMA"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/ACTIVE",
+          "Production/SequelMedServices/ACTIVEEC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CMED"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/LMAPC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CFHC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/NASSIM"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/DrHO"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/SJFA"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/WMC"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/EMR7"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/SequelMedServices/CALARUNDEL"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "PlanRxService",
+          "LabInterfaceService",
+          "VisitSignOffService",
+          "InboundFaxService",
+          "LabInterface",
+          "VisitFaxService",
+          "FlowSheetBuilderService",
+          "PatientDataService",
+          "ReminderService",
+          "EmailReminderService",
+          "CallReminderService"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB"
+            ],
+            "Url": "HdDZboJAAEDRb+m0AgICBRuRuqAoEMTigjTiRBZlkTYjjuBLU7+9pu/3vNwfcLoBBfTuI5o0rrlBdM9+61XVlKRBnO4DwIJb9F0n/wlvO6dL9pLxOSn6WGSPEDzRg1bVCDWqG1Z2f21r4+c3B6kWI3rkivRN1cJmMIOgE0/5+fVrKh3xWJBlH6JJSngTrqASIZXRgfCqRsyLcai7sQPhedj7nPvnbayPdzkechB8lC6xcKmsKaFiUa4kL6n2C9xPPZbuVTREIdFHEBRLM9o8vLW0k7rNcvGKUXCpyBCYdUgwqh5rWrflZYdDMyu10l5DWAv5EZOFukQ1pQaulSn1NjIgGuyxIWx4QRcYZyaVPucqOzGIJu0weJ9dLG3dodPgMej3Dw=="
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/ReminderService/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/CallReminderService/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/EmailReminderService/*",
+          "SequelMedEmailReminderService_PEHRNEW",
+          "SequelMedEmailReminderService_TRIAL",
+          "SequelMedEmailReminderService_PEHR1",
+          "SequelMedEmailReminderService_PEHR2",
+          "SequelMedEmailReminderService_PEHR3",
+          "SequelMedEmailReminderService_PEHR4",
+          "SequelMedEmailReminderService_PEHR5",
+          "SequelMedReminderService_CloudPEHR2"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/InboundFaxService/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/LabInterfaceService/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/PlanRxService/*",
+          "SequelMedPlanRxService_PEHRNEW",
+          "SequelMedPlanRxService_PEHRTRIAL",
+          "SequelMedPlanRxService_PEHR1",
+          "SequelMedPlanRxService_PEHR2",
+          "SequelMedPlanRxService_PEHR3",
+          "SequelMedPlanRxService_PEHR4",
+          "SequelMedPlanRxService_PEHR5"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": [
+          "Production/VisitSignOffService/*"
+        ],
+        "Type": [
+          {
+            "Id": "GB",
+            "Ids": [
+              "GB",
+              "HC",
+              "SC"
+            ],
+            "Url": null
           }
         ]
       }
