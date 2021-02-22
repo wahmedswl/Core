@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1613389525,
+  "UpdatedAt": 1613996212,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -114,7 +114,9 @@
     ],
     "HashTags": {
       "There is an issue encountered while scheduling Fax": "#Outage-Fax",
-      "There is an issue encountered while resending Fax": "#Outage-Fax"
+      "There is an issue encountered while resending Fax": "#Outage-Fax",
+      "System.IO.IOException: This user can't sign in because this account is currently disabled": "#Outage-DocSvr",
+      "System.IO.IOException: The network path was not found": "#Outage-DocSvr"
     },
     "AlertTags": [
       "#Outage-*"
@@ -802,7 +804,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHRNEW"
+          "Production/SequelMedServices/PEHRNEW",
+          "Production/SequelMedServices/CloudPEHR11"
         ],
         "Type": [
           {
@@ -818,7 +821,8 @@
       },
       {
         "Name": [
-          "Production/SequelMedServices/PEHRTRIAL"
+          "Production/SequelMedServices/PEHRTRIAL",
+          "Production/SequelMedServices/CloudPEHR10"
         ],
         "Type": [
           {
