@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1614009844,
+  "UpdatedAt": 1614246966,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -117,10 +117,13 @@
       "There is an issue encountered while resending Fax": "#Outage-Fax",
       "System.IO.IOException: This user can't sign in because this account is currently disabled": "#Outage-DocSvr",
       "System.IO.IOException: The network path was not found": "#Outage-DocSvr",
-      "System.UnauthorizedAccessException: Access to the path ": "#Outage-DocSvr"
+      "System.UnauthorizedAccessException: Access to the path ": "#Outage-DocSvr",
+      "Directory is being deleted, its unsafe ": "#Critical-DocSvr",
+      "System.Threading.ThreadAbortException: Thread was being aborted|System.IO.Directory.Delete": "#Critical-DocSvr"
     },
     "AlertTags": [
-      "#Outage-*"
+      "#Outage-*",
+      "#Critical-*"
     ]
   },
   "Sql": [],
