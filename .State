@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1614246966,
+  "UpdatedAt": 1614347641,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -119,7 +119,8 @@
       "System.IO.IOException: The network path was not found": "#Outage-DocSvr",
       "System.UnauthorizedAccessException: Access to the path ": "#Outage-DocSvr",
       "Directory is being deleted, its unsafe ": "#Critical-DocSvr",
-      "System.Threading.ThreadAbortException: Thread was being aborted|System.IO.Directory.Delete": "#Critical-DocSvr"
+      "System.Threading.ThreadAbortException: Thread was being aborted|System.IO.Directory.Delete": "#Critical-DocSvr",
+      "System.Threading.ThreadAbortException: Thread was being aborted|Database.InternalConnection": "#Outage-DB"
     },
     "AlertTags": [
       "#Outage-*",
