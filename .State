@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1615299147,
+  "UpdatedAt": 1615299393,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -122,7 +122,8 @@
       "System.Threading.ThreadAbortException: Thread was being aborted|System.IO.Directory.Delete": "#Critical-DocSvr",
       "System.Threading.ThreadAbortException: Thread was being aborted|Database.InternalConnection": "#Outage-DB",
       "ORA-00904:|invalid identifier": "#Critical-DB",
-      "ORA-12899: value too large for column": "#Critical-DB"
+      "ORA-12899: value too large for column": "#Critical-DB",
+      "ORA-00942: table or view does not exist": "#Critical-DB"
     },
     "AlertTags": [
       "#Outage-*",
