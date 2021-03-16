@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1615579552,
+  "UpdatedAt": 1615912138,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -124,12 +124,12 @@
       "ORA-00904:|invalid identifier": "#Critical-DB",
       "ORA-12899: value too large for column": "#Critical-DB",
       "ORA-00942: table or view does not exist": "#Critical-DB",
-      "StackExchange.Redis.RedisServerException|but is currently not able to persist on disk": "#Critical-Redis",
+      "StackExchange.Redis.RedisServerException|but is currently not able to persist on disk": "#Outage-Redis",
       "Format error: The specified format is invalid|PatientProf.CreateTestLetter": "#Critical-Clinical"
     },
     "AlertTags": [
       "#Outage-*",
-      "#Critical-*"
+      "#Critical-DocSvr"
     ]
   },
   "Sql": [],
