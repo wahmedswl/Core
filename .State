@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1615912862,
+  "UpdatedAt": 1617963854,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -115,6 +115,7 @@
     "HashTags": {
       "There is an issue encountered while scheduling Fax": "#Outage-Fax",
       "There is an issue encountered while resending Fax": "#Outage-Fax",
+      "Fax document has not been sent, just record will be added": "#Outage-Fax",
       "System.IO.IOException: This user can't sign in because this account is currently disabled": "#Outage-DocSvr",
       "System.IO.IOException: The network path was not found": "#Outage-DocSvr",
       "System.UnauthorizedAccessException: Access to the path ": "#Outage-DocSvr",
