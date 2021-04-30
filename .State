@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1617963854,
+  "UpdatedAt": 1619779185,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -224,7 +224,6 @@
       }
     ],
     "CC": [
-      "iinayat@sequelmed.com",
       "tmasood@sequelmed.com"
     ],
     "Teams": [
@@ -235,9 +234,7 @@
         "ToName": "Waqas Ahmed",
         "ToEmail": "wahmed@sequelmed.com",
         "CC": [
-          "iinayat@sequelmed.com",
-          "tmasood@sequelmed.com",
-          "sshah@sequelmed.com"
+          "tmasood@sequelmed.com"
         ]
       }
     ]
