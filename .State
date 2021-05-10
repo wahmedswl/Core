@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1619779185,
+  "UpdatedAt": 1620642378,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -126,7 +126,8 @@
       "ORA-12899: value too large for column": "#Critical-DB",
       "ORA-00942: table or view does not exist|!UPDATE INTERFACE_PATIENT_DOCS  SET patient_seq_num|!FROM SEQUEL1.CALL_REMINDER_SETUP ": "#Critical-DB",
       "StackExchange.Redis.RedisServerException|but is currently not able to persist on disk": "#Outage-Redis",
-      "Format error: The specified format is invalid|PatientProf.CreateTestLetter": "#Critical-Clinical"
+      "Format error: The specified format is invalid|PatientProf.CreateTestLetter": "#Critical-Clinical",
+      "Controlled substance must have a DEASchedule populated in Medication": "#Critical-Medication"
     },
     "AlertTags": [
       "#Outage-*",
