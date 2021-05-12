@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1620642378,
+  "UpdatedAt": 1620848113,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -127,7 +127,8 @@
       "ORA-00942: table or view does not exist|!UPDATE INTERFACE_PATIENT_DOCS  SET patient_seq_num|!FROM SEQUEL1.CALL_REMINDER_SETUP ": "#Critical-DB",
       "StackExchange.Redis.RedisServerException|but is currently not able to persist on disk": "#Outage-Redis",
       "Format error: The specified format is invalid|PatientProf.CreateTestLetter": "#Critical-Clinical",
-      "Controlled substance must have a DEASchedule populated in Medication": "#Critical-Medication"
+      "Controlled substance must have a DEASchedule populated in Medication": "#Critical-Medication",
+      "Authentication failed: Invalid UID and password": "#Critical-SureScripts"
     },
     "AlertTags": [
       "#Outage-*",
