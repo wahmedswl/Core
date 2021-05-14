@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1620937931,
+  "UpdatedAt": 1621017855,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -129,7 +129,8 @@
       "Format error: The specified format is invalid|PatientProf.CreateTestLetter": "#Critical-Clinical",
       "Controlled substance must have a DEASchedule populated in Medication": "#Critical-Medication",
       "Authentication failed: Invalid UID and password": "#Critical-SureScripts",
-      "Unable to initialize TXTextControl.ServerTextControl": "#Outage-Visit"
+      "Unable to initialize TXTextControl.ServerTextControl": "#Critical-Tool",
+      "Unable to initialize TXTextControl.ServerTextControl|ClinicalEHR.vb::IEHRPNotesSignOff": "#Outage-Visit"
     },
     "AlertTags": [
       "#Outage-*",
