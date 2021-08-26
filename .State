@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1624963147,
+  "UpdatedAt": 1629981689,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -69,7 +69,8 @@
       "Whitelist": [
         "LockTimeoutException",
         "ONSException",
-        "RegulateNumOfCons"
+        "RegulateNumOfCons",
+        "OracleTuningAgent.DoScan"
       ]
     },
     "OnlineWriter": [
