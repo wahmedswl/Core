@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1629981689,
+  "UpdatedAt": 1632940344,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -79,7 +79,11 @@
       "SequelMed.Core.Log.Writer.EmailWriter",
       "SequelMed.Core.Log.Writer.DatadogWriter",
       "SequelMed.Core.Log.Writer.LogzIOWriter",
-      "SequelMed.Core.Log.Writer.SlackWriter"
+      "SequelMed.Core.Log.Writer.ChatWriter",
+      "SequelMed.Core.Log.Writer.SlackWriter",
+      "SequelMed.Core.Log.Writer.TeamsWriter",
+      "SequelMed.Core.Log.Writer.LokiWriter",
+      "SequelMed.Core.Azure.Log.Writer.ApplicationInsightsWriter"
     ],
     "Redacted": [
       "CFG",
