@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1632940344,
+  "UpdatedAt": 1635644490,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -2602,8 +2602,7 @@
             ],
             "Check": [
               "hb",
-              "db",
-              "ss"
+              "db"
             ],
             "Server": {
               "Url": "yygpKSi20tcvLi4oyk8pqdArTi0sTc3JTU3RS87P1S8zNNAPLi1KDU4uyiwo0fdITcwpydBLLC6oAAA=",
@@ -2619,8 +2618,7 @@
             ],
             "Check": [
               "hb",
-              "db",
-              "sd"
+              "db"
             ],
             "Server": {
               "Url": "yygpKSi20tcvLi4oyk8pqdArTi0sTc3JTU3RS87P1Q8oyi/LTEktCi1ISSxJ1fdITcwpydBLLC6oAAA=",
@@ -2664,8 +2662,7 @@
               "Production/Exostar/Api"
             ],
             "Check": [
-              "hb",
-              "es"
+              "hb"
             ],
             "Server": {
               "Url": "yygpKSi20tdPrcgvLkksSi1ILi4oyk/RK04tLE3NyU1N0UvOz9X3SE3MKcnQSywuqAAA"
@@ -2678,8 +2675,7 @@
             ],
             "Check": [
               "hb",
-              "db",
-              "rb"
+              "db"
             ],
             "Server": {
               "Url": "yygpKSi20tcvqsgoTSooyk8pqdArTi0sTc3JTU3RS87P1Q+q8ChNcs7JTM0r0fdITcwpydBLLC6oAAA="
