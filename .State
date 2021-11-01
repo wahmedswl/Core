@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1635644490,
+  "UpdatedAt": 1635767734,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -135,7 +135,8 @@
       "Controlled substance must have a DEASchedule populated in Medication": "#Critical-Medication",
       "Authentication failed: Invalid UID and password": "#Critical-SureScripts",
       "Unable to initialize TXTextControl.ServerTextControl": "#Critical-Tool",
-      "Unable to initialize TXTextControl.ServerTextControl|ClinicalEHR.vb::IEHRPNotesSignOff": "#Outage-Visit"
+      "Unable to initialize TXTextControl.ServerTextControl|ClinicalEHR.vb::IEHRPNotesSignOff": "#Outage-Visit",
+      "System.IO.IOException: There is not enough space on the disk": "#Outage-DocSvr"
     },
     "AlertTags": [
       "#Outage-*",
