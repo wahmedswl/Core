@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1635767734,
+  "UpdatedAt": 1637581455,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -136,7 +136,8 @@
       "Authentication failed: Invalid UID and password": "#Critical-SureScripts",
       "Unable to initialize TXTextControl.ServerTextControl": "#Critical-Tool",
       "Unable to initialize TXTextControl.ServerTextControl|ClinicalEHR.vb::IEHRPNotesSignOff": "#Outage-Visit",
-      "System.IO.IOException: There is not enough space on the disk": "#Outage-DocSvr"
+      "System.IO.IOException: There is not enough space on the disk": "#Outage-DocSvr",
+      "System.Threading.ThreadAbortException: Thread was being aborted": "#Outage-VD"
     },
     "AlertTags": [
       "#Outage-*",
