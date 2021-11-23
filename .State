@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1637581455,
+  "UpdatedAt": 1637626472,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -127,6 +127,13 @@
       "Directory is being deleted, its unsafe ": "#Critical-DocSvr",
       "System.Threading.ThreadAbortException: Thread was being aborted|System.IO.Directory.Delete": "#Critical-DocSvr",
       "System.Threading.ThreadAbortException: Thread was being aborted|Database.InternalConnection": "#Outage-DB",
+      "System.Threading.ThreadAbortException: Thread was being aborted|Oracle.DataAccess.Client": "#Outage-DB",
+      "System.Threading.ThreadAbortException: Thread was being aborted|Oracle.ManagedDataAccess.Client": "#Outage-DB",
+      "System.Threading.ThreadAbortException: Thread was being aborted|HttpContext": "#Outage-VD",
+      "System.Threading.ThreadAbortException: Thread was being aborted|.ashx": "#Outage-VD",
+      "System.Threading.ThreadAbortException: Thread was being aborted|.asmx": "#Outage-VD",
+      "System.Threading.ThreadAbortException: Thread was being aborted|.aspx": "#Outage-VD",
+      "System.Web.HttpException|Request timed out": "#Outage-VD",
       "ORA-00904:|invalid identifier": "#Critical-DB",
       "ORA-12899: value too large for column": "#Critical-DB",
       "ORA-00942: table or view does not exist|!UPDATE INTERFACE_PATIENT_DOCS  SET patient_seq_num|!FROM SEQUEL1.CALL_REMINDER_SETUP ": "#Critical-DB",
@@ -136,8 +143,7 @@
       "Authentication failed: Invalid UID and password": "#Critical-SureScripts",
       "Unable to initialize TXTextControl.ServerTextControl": "#Critical-Tool",
       "Unable to initialize TXTextControl.ServerTextControl|ClinicalEHR.vb::IEHRPNotesSignOff": "#Outage-Visit",
-      "System.IO.IOException: There is not enough space on the disk": "#Outage-DocSvr",
-      "System.Threading.ThreadAbortException: Thread was being aborted": "#Outage-VD"
+      "System.IO.IOException: There is not enough space on the disk": "#Outage-DocSvr"
     },
     "AlertTags": [
       "#Outage-*",
