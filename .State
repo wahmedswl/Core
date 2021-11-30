@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1637626472,
+  "UpdatedAt": 1638310490,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -134,6 +134,7 @@
       "System.Threading.ThreadAbortException: Thread was being aborted|.asmx": "#Outage-VD",
       "System.Threading.ThreadAbortException: Thread was being aborted|.aspx": "#Outage-VD",
       "System.Web.HttpException|Request timed out": "#Outage-VD",
+      "OracleException Memory could not be allocated": "#Outage-VD",
       "ORA-00904:|invalid identifier": "#Critical-DB",
       "ORA-12899: value too large for column": "#Critical-DB",
       "ORA-00942: table or view does not exist|!UPDATE INTERFACE_PATIENT_DOCS  SET patient_seq_num|!FROM SEQUEL1.CALL_REMINDER_SETUP ": "#Critical-DB",
