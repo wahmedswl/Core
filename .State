@@ -1,6 +1,6 @@
 {
   "Version": "v3",
-  "UpdatedAt": 1638310490,
+  "UpdatedAt": 1638393837,
   "Deadlock": {
     "Group": {
       "Logger::Instance": {
@@ -129,6 +129,8 @@
       "System.Threading.ThreadAbortException: Thread was being aborted|Database.InternalConnection": "#Outage-DB",
       "System.Threading.ThreadAbortException: Thread was being aborted|Oracle.DataAccess.Client": "#Outage-DB",
       "System.Threading.ThreadAbortException: Thread was being aborted|Oracle.ManagedDataAccess.Client": "#Outage-DB",
+      "ORA-12154: TNS:could not resolve the connect identifier specified": "#Outage-DB",
+      "ORA-12514: TNS:listener does not currently know of service requested in connect descriptor": "#Outage-DB",
       "System.Threading.ThreadAbortException: Thread was being aborted|HttpContext": "#Outage-VD",
       "System.Threading.ThreadAbortException: Thread was being aborted|.ashx": "#Outage-VD",
       "System.Threading.ThreadAbortException: Thread was being aborted|.asmx": "#Outage-VD",
